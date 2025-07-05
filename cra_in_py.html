@@ -34,16 +34,46 @@
 										<h1>Credit Risk Analytics in Python</h1>
 									</header>
 
-									<p>So, the idea in this one is quite simple. There's a book [Credit Risk Analytics - Measurement Techniques Applications and Examples in SAS](https://www.wiley.com/en-us/Credit+Risk+Analytics%3A+Measurement+Techniques%2C+Applications%2C+and+Examples+in+SAS-p-9781119143987)
+									<p>So, the idea in this one is quite simple. There's a book <a href="https://www.wiley.com/en-us/Credit+Risk+Analytics%3A+Measurement+Techniques%2C+Applications%2C+and+Examples+in+SAS-p-9781119143987">Credit Risk Analytics - Measurement Techniques Applications and Examples in SAS</a>
 										that brings a lot of examples in python. While reading this book I'm kinda of resuming it's content while trying to replicate
 										the SAS examples presents in the book in python.
 									</p>
 
 									<p>
-										I won't go into much detail here nor replicate the codes as they were written in .ipynb file format in [this project](https://github.com/gtazevedo/cra_mtae_sas_in_py),
-										feel free to access it and check the notebooks. I'm still reading the book and writing the codes, as I advance I'll keep updating the github project and this page.
+										I won't go into much detail here nor replicate the codes as they were written in .ipynb file format in <a href="https://github.com/gtazevedo/cra_mtae_sas_in_py">this github project</a>,
+										feel free to access it and check the notebooks. They have a little bit of theory (in some cases), as well as the python examples. I'm still reading the book and writing the codes, as I advance I'll keep updating the github project and this page.
 									</p>
 
+									<p>For all my codes, I've used the datasets from the book, you can find it <a href="http://www.creditriskanalytics.net/">here</a>
+									They are quite interesting for study uses too. So I'll leave a brief descripton of the datasets present.
+									<ul>
+										<li>HMEQ: Reports characteristics and delinquency information of 5960 home equity loans.</li>
+										<li>Data Set Mortgage: Data set in panel form and reports origination and performance observations of 50000 residentials U.S 
+											mortagage borrowers over 60 periods. Periods have been deidentified.
+										</li>
+										<li>Data Set LGD: Data set includes 2545 observations on loans and LGDs.</li>
+										<li>Corporate ratings where the ratings have been numerically encoded(1 = AAA, and so on).</li>
+									</ul>
+									</p>
+
+									<hr class="major" />
+									<h2>About the github project</h2>
+									<p>The project follows the same logic as the book, each chapter is a different notebook. 
+										The first and second chapter don't have a notebook as they are more introductory and don't really have examples to replicate. 
+										I'll leave a short description of what is seen on each chapter I've read so as to serve as a guide in case you want to read it or check
+										my python codes. A more detailed description of the case studies can be found in the python notebooks.</p>
+
+									<h3>Chapter 3 - Exploratory Data Analysis</h3>
+									<p>On chapter 3 we see some introduction to exploratory data analysis and we take a look at the distribution of our datasets 
+										(you can check out how to plot these distributions). We also check the location, dispersion, skewness and kurtosis measures of our data
+										and take a quick look at correlation.
+									</p>
+									<h3>Chapter 4 - Data Preprocessing for Credit Risk Modeling</h3>
+									<p>Here we learn how to preprocess our data, which is an important step in every data analysis. We take a look at the importance
+										of sampling and make some plots of the data in our distribution to try getting some insights about it. We learn about missing values
+										and their impact in our analysis as well as how to deal with it, the same goes for outliers. There are also topics on standardizing, categorization 
+										and variable selection, which we will implement in the following chapters.
+									</p>
 								</section>
 
 						</div>
